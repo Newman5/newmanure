@@ -1,16 +1,9 @@
 {
-  "showInlineTitle": false,
-  "promptDelete": true,
-  "showIndentGuide": false,
   "attachmentFolderPath": "./attachments",
-  "userIgnoreFilters": [
-    "bases/"
-  ],
-  "focusNewTab": false,
-  "mobilePullAction": "command-palette:open",
-  "trashOption": "system",
-  "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "mobilePullAction": "command-palette:open",
   "mobileToolbarCommands": [
     "editor:undo",
     "editor:redo",
@@ -38,7 +31,14 @@
   ],
   "newFileLocation": "folder",
   "newFileFolderPath": "posts",
-  "newLinkFormat": "relative",
+  "showInlineTitle": false,
+  "promptDelete": true,
+  "showIndentGuide": false,
+  "userIgnoreFilters": [
+    "bases/"
+  ],
+  "focusNewTab": false,
+  "trashOption": "system",
   "mobileQuickRibbonItem": "",
   "vimMode": false,
   "readableLineLength": true,

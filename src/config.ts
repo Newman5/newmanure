@@ -197,7 +197,7 @@ export const siteConfig: SiteConfig = {
 
   // Global Settings
   // [CONFIG:THEME]
-  theme: "minimal", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
+  theme: "sky", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "custom", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
@@ -318,18 +318,18 @@ export const siteConfig: SiteConfig = {
         children: [
           { title: "Privacy Policy", url: "/privacy-policy/" }
         ] },
-      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
+      { title: "GitHub", url: "https://github.com/newman5" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
       {
         title: "X",
-        url: "https://x.com/davidvkimball",
+        url: "https://x.com/newman5",
         icon: "x-twitter",
       },
       {
         title: "GitHub",
-        url: "https://github.com/davidvkimball",
+        url: "https://github.com/newman5",
         icon: "github",
       },
     ],
@@ -338,9 +338,9 @@ export const siteConfig: SiteConfig = {
   // Optional Content Types - Enable/disable optional content sections (takes priority over homeOptions)
   optionalContentTypes: {
     // [CONFIG:OPTIONAL_CONTENT_TYPES_PROJECTS]
-    projects: true, // Enable projects section
+    projects: false, // Enable projects section
     // [CONFIG:OPTIONAL_CONTENT_TYPES_DOCS]
-    docs: true, // Enable documentation section
+    docs: false, // Enable documentation section
   },
 
   // Home Options

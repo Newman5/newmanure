@@ -183,7 +183,7 @@ export const siteConfig: SiteConfig = {
   // [CONFIG:SITE_URL]
   site: "https://newmanure.com",
   // [CONFIG:SITE_TITLE]
-  title: "The Newman's NewStuff - NewManure",
+  title: "Just another Newman blog",
   // [CONFIG:SITE_DESCRIPTION]
   description: "A flexible blog theme designed for Obsidian users.",
   // [CONFIG:SITE_AUTHOR]

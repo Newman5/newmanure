@@ -34,6 +34,8 @@ properties:
     displayName: Path
   note.draft:
     displayName: Draft
+  note.draft:
+    displayName: Draft
 views:
   - type: bases-cms
     name: Posts

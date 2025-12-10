@@ -1,0 +1,75 @@
+# ----------------------------------------------------------
+# Enforce LF for all text-based files
+# ----------------------------------------------------------
+* text=auto eol=lf
+
+# ----------------------------------------------------------
+# Markdown content (Obsidian / VaultCMS)
+# ----------------------------------------------------------
+*.md     text
+*.markdown text
+*.mdx    text
+
+# ----------------------------------------------------------
+# Astro + Web project files
+# ----------------------------------------------------------
+*.astro  text
+*.js     text
+*.ts     text
+*.tsx    text
+*.jsx    text
+*.css    text
+*.scss   text
+*.sass   text
+*.html   text
+*.json   text
+*.yml    text
+*.yaml   text
+*.mjs    text
+*.cjs    text
+
+# ----------------------------------------------------------
+# GitHub workflow files
+# ----------------------------------------------------------
+*.yml    text
+*.yaml   text
+
+# ----------------------------------------------------------
+# Config files
+# ----------------------------------------------------------
+*.env    text
+*.env.example text
+*.gitignore text
+*.editorconfig text
+*.gitattributes text
+
+# ----------------------------------------------------------
+# Image & Binary files (MUST be binary, no line-ending changes)
+# ----------------------------------------------------------
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    text  
+*.webp   binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.mp3    binary
+*.wav    binary
+*.mp4    binary
+*.mov    binary
+
+# ----------------------------------------------------------
+# Obsidian database files (leave untouched)
+# ----------------------------------------------------------
+.obsidian/  export-ignore
+.obsidian/** binary
+
+# ----------------------------------------------------------
+# Ignore Windows thumbnails & system files
+# ----------------------------------------------------------
+*.lnk     binary
+Thumbs.db binary

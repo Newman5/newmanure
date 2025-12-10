@@ -1,15 +1,14 @@
 {
   "confirmBulkOperations": true,
-  "deleteParentFolder": true,
+  "deleteParentFolder": false,
   "deleteParentFolderFilename": "index",
   "deleteUniqueAttachments": true,
   "confirmDeletions": true,
   "useHomeIcon": true,
+  "thumbnailCacheSize": "balanced",
   "enableQuickEdit": true,
   "quickEditCommand": "astro-composer:rename-content",
   "quickEditCommandName": "Astro Composer: Rename current content",
-  "quickEditIcon": "lucide-pencil-line",
-  "quickEditOpenFile": false,
   "showToolbarSelectAll": true,
   "showToolbarClear": true,
   "showToolbarDraft": true,
@@ -17,8 +16,5 @@
   "showToolbarTags": true,
   "showToolbarSet": true,
   "showToolbarRemove": true,
-  "showToolbarDelete": true,
-  "forceStaticGifImages": false,
-  "showPropertiesInfoModal": true,
-  "thumbnailCacheSize": "balanced"
+  "showToolbarDelete": true
 }

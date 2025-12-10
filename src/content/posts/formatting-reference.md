@@ -33,10 +33,15 @@ This post demonstrates all the markdown, extended markdown, and other embed feat
 ### Headings
 
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 
 ```markdown
@@ -195,7 +200,7 @@ Here's an [external link](https://obsidian.md).
 
 ### Internal Links
 
-You can create internal links using double brackets (wikilinks) or with standard markdown. 
+You can create internal links using double brackets (wikilinks) or with standard markdown.
 
 For example: [[getting-started|Getting Started]] or [Astro Suite Obsidian Vault Guide (Astro Modular)](vault-cms-guide.md).
 
@@ -212,8 +217,8 @@ Here's the same internal link with an anchor formatted in 4 different ways (both
 [[posts/getting-started#Choose Your Workflow|Choose Your Workflow]]
 [Choose Your Workflow](/posts/getting-started#choose-your-workflow)
 
-
 Here's a relative link: [Obsidian Embeds Demo](obsidian-embeds-demo.md)
+
 ### Reference Links
 
 This is a [reference link][1] and this is another [reference link][markdown].
@@ -316,11 +321,11 @@ echo "Development server started on http://localhost:3000"
 ### Nested Quotes
 
 > This is a top-level quote.
-> 
+>
 > > This is a nested quote within the first quote.
-> > 
+> >
 > > > And this is a quote nested even deeper.
-> 
+>
 > Back to the top level.
 
 ## Horizontal Rules
@@ -389,10 +394,9 @@ These buttons use your existing color palette and adapt perfectly to light/dark 
 </div>
 ```
 
-
 ## Works with Obsidian
 
-All of these formatting options should also appear in Obsidian, with some differences depending on the theme you use. 
+All of these formatting options should also appear in Obsidian, with some differences depending on the theme you use.
 
 ### Quick Reference
 

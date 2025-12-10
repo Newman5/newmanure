@@ -149,10 +149,10 @@ var ZenMode = class extends import_obsidian.Plugin {
     } else {
       this.settings.rightSidebar = this.app.workspace.rightSplit.collapsed;
       this.settings.leftSidebar = this.app.workspace.leftSplit.collapsed;
-      if (app.workspace.leftSplit.collapsed != this.settings.zenMode) {
+      if (!app.workspace.leftSplit.collapsed) {
         app.workspace.leftSplit.collapse();
       }
-      if (app.workspace.rightSplit.collapsed != this.settings.zenMode) {
+      if (!app.workspace.rightSplit.collapsed) {
         app.workspace.rightSplit.collapse();
       }
     }

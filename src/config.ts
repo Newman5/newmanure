@@ -181,13 +181,13 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://newmanure.com",
   // [CONFIG:SITE_TITLE]
-  title: "Astro Modular",
+  title: "Newmanure",
   // [CONFIG:SITE_DESCRIPTION]
-  description: "A flexible blog theme designed for Obsidian users.",
+  description: "A blog built with Astro and Obsidian.",
   // [CONFIG:SITE_AUTHOR]
-  author: "David V. Kimball",
+  author: "Newman5",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]

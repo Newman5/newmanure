@@ -2,11 +2,11 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "bases/home.base",
+      "value": "_bases/Home.base",
       "kind": "File",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
-      "manualOpenMode": "Replace all open notes",
+      "manualOpenMode": "Keep open notes",
       "view": "Default view",
       "revertView": true,
       "openWhenEmpty": true,
@@ -16,7 +16,7 @@
       "pin": false,
       "commands": [],
       "alwaysApply": false,
-      "hideReleaseNotes": true
+      "hideReleaseNotes": false
     }
   },
   "separateMobile": false

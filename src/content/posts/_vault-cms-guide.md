@@ -4,7 +4,7 @@ description: How to use this Obsidian vault as a content management system.
 tags:
   - Meta
 pubDate: 2025-08-23
-draft: true
+draft: false
 ---
 ![Vault CMS logo with Obsidian and Astro logo marks underneath.](images/vault-cms-cover.png)
 

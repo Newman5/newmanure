@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
-import { siteConfig } from "../config";
+import { siteConfig } from "../slate.config";
 import { shouldShowPost, shouldShowContent } from "../utils/markdown";
 
 function shouldExcludeFromSitemap(slug: string): boolean {

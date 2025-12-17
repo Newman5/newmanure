@@ -1,5 +1,5 @@
 import type { APIRoute } from "astro";
-import { siteConfig } from "../config";
+import { siteConfig } from "../slate.config";
 
 export const GET: APIRoute = async () => {
   const siteUrl = import.meta.env.SITE || siteConfig.site;

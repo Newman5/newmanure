@@ -1,6 +1,6 @@
 import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
-import { siteConfig } from "../config";
+import { siteConfig } from "../slate.config";
 import { shouldShowPost, sortPostsByDate } from "../utils/markdown";
 import { optimizePostImagePath } from "../utils/images";
 

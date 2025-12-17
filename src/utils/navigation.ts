@@ -1,4 +1,4 @@
-import { siteConfig } from '@/config';
+import { siteConfig } from '@/slate.config';
 
 /**
  * Check if a specific optional content type is enabled

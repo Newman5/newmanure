@@ -20,7 +20,7 @@ import rehypeImageAttributes from './src/utils/rehype-image-attributes.ts';
 import { rehypeNormalizeAnchors } from './src/utils/rehype-normalize-anchors.ts';
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
-import { siteConfig } from './src/config.ts';
+import { siteConfig } from './src/slate.config.ts';
 import swup from '@swup/astro';
 import { fileURLToPath } from 'url';
 

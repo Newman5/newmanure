@@ -1,5 +1,5 @@
 
-import { siteConfig, getFontFamily } from './src/config.ts';
+import { siteConfig, getFontFamily } from './src/slate.config.ts';
 
 /** @type {import('tailwindcss').Config} */
 export default {

@@ -1,5 +1,5 @@
 import type { ImageInfo, OpenGraphImage } from "@/types";
-import { siteConfig } from "@/config";
+import { siteConfig } from "@/slate.config";
 
 // Process images for responsive layouts
 export function processImageLayout(images: ImageInfo[]): {

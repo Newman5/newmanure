@@ -1,6 +1,6 @@
 import type { APIRoute } from "astro";
 import { getCollection } from "astro:content";
-import { siteConfig } from "../config";
+import { siteConfig } from "../slate.config";
 
 // Helper function to normalize siteUrl - ensure it ends with a single slash
 function normalizeSiteUrl(url: string): string {

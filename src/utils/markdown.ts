@@ -138,7 +138,7 @@ export function getReadingTime(
 
 // Generate table of contents from headings
 export async function generateTOC(headings: Heading[]): Promise<Heading[]> {
-  const { getTableOfContentsDepth } = await import("@/config");
+  const { getTableOfContentsDepth } = await import("@/slate.config");
   const maxDepth = getTableOfContentsDepth();
   return headings.filter(
     (heading) => heading.depth >= 2 && heading.depth <= maxDepth

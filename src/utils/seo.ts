@@ -6,7 +6,7 @@ import type {
   SEOData,
   OpenGraphImage,
 } from "@/types";
-import siteConfig from "@/config";
+import siteConfig from "@/slate.config";
 import {
   getFallbackOGImage,
   optimizePostImagePath,

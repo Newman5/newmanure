@@ -9,7 +9,7 @@
   "terminalProjectRootPath": "../..",
   "enableTerminalRibbonIcon": true,
   "enableOpenConfigFileCommand": true,
-  "configFilePath": "../../slate.config.ts",
+  "configFilePath": "../../src/config.ts",
   "enableConfigRibbonIcon": false,
   "contentTypes": [
     {
